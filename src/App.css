@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.wrapper-dnd .container{
+  width: 70%;
+  margin: 0 auto; 
+  clear: both;
+}
+
+.wrapper-dnd .container .bucketList{
+  border: 0.5rem solid goldenrod;
+  height: 30vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.bucketList .bucketItem{
+  cursor: pointer;
+}
+
+.bucketItem{
+  width: 10%;
+  height: 8vh;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper-dnd .container .container_A, .wrapper-dnd .container .container_B{
+  width: 40%;
+}
+
+.wrapper-dnd .container .container_A{
+  float: left;
+}
+
+.bucketA{
+  border: 0.5rem solid rgb(0, 217, 255);
+  height: 30vh;
+  display: flex;
+}
+
+.wrapper-dnd .container .container_B{
+  float: right;
+  margin-left: 5%;
+}
+
+.bucketB{
+  border: 0.5rem solid rgb(0, 38, 255);
+  height: 30vh;
+  display: flex;
+}
